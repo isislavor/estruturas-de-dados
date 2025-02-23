@@ -13,3 +13,13 @@ int main() {
     printf("%s\n",Cachorro1.nome);
     return 0;
 }; 
+
+
+/*
+Alternativas para adicionar valores as variáveis do registro
+
+struct Cachorro Cachorro1;
+strcpy(Cachorro1.nome, "Bob");
+Cachorro1.idade = 1;
+Cachorro1.peso = 12.5;
+*/
